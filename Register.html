@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body style="background-color: #24353F;">
+<div  class="container-fluid">
+<section>
+   <div style="width: 60%; padding:40px 40px 20px 40px;box-shadow: rgba(0, 0, 0, 0.27) 0px 54px 55px, rgba(0, 0, 0, 0.16) 0px -12px 30px, rgba(0, 0, 0, 0.16) 0px 4px 6px, rgba(0, 0, 0, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.1) 0px -3px 5px;" class="container mt-5 text-center ">
+   <h1 style="font-size: 40px;font-weight: 500;color:#17A2B8 ;" class="mb-4">Smart Login System</h1>
+    <form >
+      <div  class="mb-3">
+        <input  type="text" class="form-control bg-transparent text-light " id="Name" aria-describedby="emailHelp" placeholder="Enter your Name">
+      </div>
+    <div style="color: #B6AA8C;" class="mb-3">
+      <input  type="email" class="form-control bg-transparent text-light" id="Email" aria-describedby="emailHelp" placeholder="Enter your email">
+    </div>
+    <div class="mb-3">
+      <input type="password" class="form-control bg-transparent text-light" id="Password" placeholder="Enter your password">
+    </div>
+    <p id="warning" class="text-danger d-none">All inputs is requierd</p>
+    <p id="Success" style="color: rgb(45, 156, 22);font-size: 18px;" class=" d-none">Success</p>
+  </form> 
+  <button onclick="Register()"   class="btn btn-outline-primary w-100 mt-3  ">Sign-Up</button>
+  <p class="text-white mt-4 ">You have an account? <a href="index.html"  class="text-white ">Sign in</a></p>
+  </div>
+</section>
+ 
+  
+</div>
+</div>
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
